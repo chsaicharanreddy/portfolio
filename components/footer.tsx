@@ -24,7 +24,7 @@ export function Footer() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Link href="https://github.com/chsaicharanreddy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <Link href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <motion.div
               whileHover={{ scale: 1.2, rotate: 5 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -32,7 +32,7 @@ export function Footer() {
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </motion.div>
           </Link>
-          <Link href="https://www.linkedin.com/in/chevula-saicharanreddy-83251b238/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <motion.div
               whileHover={{ scale: 1.2, rotate: 5 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -48,7 +48,7 @@ export function Footer() {
               <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </motion.div>
           </Link>
-          <Link href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRsqPwGZRQgPZKqsZgBLFTmmTMnBvPTNQRBhrjRWDNHcGcQFvTbblPTdmRHVDpqCmgnHFjb" aria-label="Email">
+          <Link href="mailto:hello@example.com" aria-label="Email">
             <motion.div
               whileHover={{ scale: 1.2, rotate: 5 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}

@@ -51,18 +51,18 @@ export function About() {
             transition={{ duration: 0.5 }}
           >
             <motion.div
-              className="flex justify-center"
+              className="relative aspect-video overflow-hidden rounded-xl"
               whileHover={{ scale: 1.05, rotate: 2 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="sai1_hero.jpg?height=800&width=600"
+                src="/placeholder.svg?height=400&width=600"
                 alt="About me"
-                className="object-cover mx-auto"
+                className="object-cover"
                 width={600}
-                height={800}
+                height={400}
               />
-              <div className="mx-auto grid max-w-5xl items-center justify-center gap-6 py-12 lg:grid-cols-2 lg:gap-12"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent pointer-events-none"></div>
             </motion.div>
           </motion.div>
           <motion.div
@@ -118,9 +118,7 @@ export function About() {
                 <Button className="mt-4 relative overflow-hidden group">
                   <span className="relative z-10">
                     <Download className="mr-2 h-4 w-4" />
-                    <a href="/Shashidhar_Chavula_Resume.pdf" download>
                     Download Resume
-                    </a>
                   </span>
                   <span className="absolute inset-0 bg-gradient-to-r from-orange-600 to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-md"></span>
                 </Button>

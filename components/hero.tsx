@@ -107,7 +107,7 @@ export function Hero() {
               >
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-primary to-orange-500 bg-clip-text text-transparent">
-                  Sai Charan Chevula
+                  Your Name
                 </span>
               </motion.h1>
               <motion.div
@@ -151,7 +151,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.8 }}
             >
-              <Link href="https://github.com/chsaicharanreddy" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </Button>
@@ -180,7 +180,7 @@ export function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="sai_hero.jpg/?height=350&width=350"
+                src="/placeholder.svg?height=350&width=350"
                 alt="Profile"
                 className="object-cover"
                 width={350}
